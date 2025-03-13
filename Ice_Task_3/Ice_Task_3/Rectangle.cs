@@ -29,6 +29,11 @@ namespace Ice_Task_3
             Console.WriteLine($"Area of Rectangle: {Length*Width} squared");
         }
 
+        public override void Display()
+        {
+            Console.WriteLine($"Rectangle Details: \n");
+        }
+
 
     }
 }

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|c:\\users\\lsokh\\source\\repos\\ice_task_3\\ice_task_3\\icalculatearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|solutionrelative:ice_task_3\\icalculatearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|c:\\users\\lsokh\\source\\repos\\ice_task_3\\ice_task_3\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|solutionrelative:ice_task_3\\circle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|c:\\users\\lsokh\\source\\repos\\ice_task_3\\ice_task_3\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|solutionrelative:ice_task_3\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|c:\\users\\lsokh\\source\\repos\\ice_task_3\\ice_task_3\\shapes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,14 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|c:\\users\\lsokh\\source\\repos\\ice_task_3\\ice_task_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|solutionrelative:ice_task_3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|c:\\users\\lsokh\\source\\repos\\ice_task_3\\ice_task_3\\icalculatearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|solutionrelative:ice_task_3\\icalculatearea.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|c:\\users\\lsokh\\source\\repos\\ice_task_3\\ice_task_3\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD1FD614-20C6-47EE-93E5-BA4569850F1F}|Ice_Task_3\\Ice_Task_3.csproj|solutionrelative:ice_task_3\\rectangle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,50 +30,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "iCalculateArea.cs",
               "DocumentMoniker": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\iCalculateArea.cs",
               "RelativeDocumentMoniker": "Ice_Task_3\\iCalculateArea.cs",
               "ToolTip": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\iCalculateArea.cs",
               "RelativeToolTip": "Ice_Task_3\\iCalculateArea.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T12:00:42.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Circle.cs",
               "DocumentMoniker": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\Circle.cs",
               "RelativeDocumentMoniker": "Ice_Task_3\\Circle.cs",
               "ToolTip": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\Circle.cs",
               "RelativeToolTip": "Ice_Task_3\\Circle.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T11:57:10.963Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Rectangle.cs",
               "DocumentMoniker": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\Rectangle.cs",
               "RelativeDocumentMoniker": "Ice_Task_3\\Rectangle.cs",
               "ToolTip": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\Rectangle.cs",
               "RelativeToolTip": "Ice_Task_3\\Rectangle.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T11:56:55.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "shapes.cs",
               "DocumentMoniker": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\shapes.cs",
               "RelativeDocumentMoniker": "Ice_Task_3\\shapes.cs",
@@ -86,13 +86,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\Program.cs",
               "RelativeDocumentMoniker": "Ice_Task_3\\Program.cs",
               "ToolTip": "C:\\Users\\lsokh\\source\\repos\\Ice_Task_3\\Ice_Task_3\\Program.cs",
               "RelativeToolTip": "Ice_Task_3\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T11:55:23.008Z",
               "EditorCaption": ""

@@ -24,7 +24,10 @@ namespace Ice_Task_3
             Console.WriteLine($"Area of a cirle: {(Radius*Radius)*Math.PI:F2}");
         }
 
-        
+        public override void Display()
+        {
+            Console.WriteLine($"Circle Details: \n");
+        }
 
 
     }
