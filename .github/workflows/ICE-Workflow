@@ -1,0 +1,33 @@
+name: Build and Syntax check
+
+on: 
+  push:
+    branches: ["main"] #
+  pull_request:
+    branches: ["main"]
+jobs: 
+  build:
+    runs on: ubuntu-latest
+
+    steps:
+    # checkout Repository
+    -name: Checkout Code
+    -usea: actions/checkout@v4
+
+    #Set up .NET SDK
+    -name: Set up .NET SDH
+    -uses: actions/setup-dornet@v4
+      with:
+        dotnet version: '9.0'
+
+    # Restore any dependancies
+    -name: Dependancias
+    -uses: dotnet restore
+
+    #Run Unit Test
+    -name: Unit Test
+    -uses: dotnwt test
+
+    # Build the project
+    -name: Project Build
+    -uses: dotnet build --configuration release
