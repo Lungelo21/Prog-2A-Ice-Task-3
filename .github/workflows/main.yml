@@ -2,32 +2,32 @@ name: Build and Syntax check
 
 on: 
   push:
-    branches: ["main"] #
+    branches: ["main"]
   pull_request:
     branches: ["main"]
 jobs: 
   build:
-    runs on: ubuntu-latest
+    runs-on: ubuntu-latest
 
     steps:
     # checkout Repository
-    -name: Checkout Code
-    -uses: actions/checkout@v4
+      - name: Checkout Code
+        uses: actions/checkout@v4
 
-    #Set up .NET SDK
-    -name: Set up .NET SDK
-    -uses: actions/setup-dornet@v4
-      with:
-        dotnet version: '9.0'
+      #Set up .NET SDK
+      - name: Set up .NET SDK
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet version: '9.0'
 
-    # Restore any dependancies
-    -name: Dependancias
-    -uses: dotnet restore
+      # Restore any dependancies
+      - name: Dependancias
+      - run: dotnet restore
 
-    #Run Unit Test
-    -name: Unit Test
-    -uses: dotnwt test
+      #Run Unit Test
+      - name: Unit Test
+      - run: dotnet test
 
-    # Build the project
-    -name: Project Build
-    -uses: dotnet build --configuration release
+      # Build the project
+      - name: Project Build
+      - run: dotnet build --configuration release
